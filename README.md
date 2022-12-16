@@ -1,4 +1,5 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/96a04583d359433f8c7e8d2bacd89f9b)](https://app.codacy.com/manual/jmiller.v/instagram-away-message?utm_source=github.com&utm_medium=referral&utm_content=jmillerv/instagram-away-message&utm_campaign=Badge_Grade_Settings) [![Go Report Card](https://goreportcard.com/badge/github.com/jmillerv/instagram-away-message)](https://goreportcard.com/report/github.com/jmillerv/instagram-away-message)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ae9a3a6678447749c95e617a86be622)](https://www.codacy.com/gh/jmillerv/instagram-away-message/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jmillerv/instagram-away-message&amp;utm_campaign=Badge_Grade)
+
 # instagram-away-mesage
 A command line tool for generating instagram note messages from songs
 
