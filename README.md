@@ -40,7 +40,7 @@ If you've never worked with Go before, you'll need to install that, follow their
 https://go.dev/doc/install
 
 ### RapidAPI 
-This is using Shazam's API through Rapid API, so you'll need a rapid API account. Apologies.
+This is using Shazam's API through [Rapid API](https://rapidapi.com/hub), so you'll need a rapid API account. Apologies.
 
 ## Required Environment Variables
 If you've never done set environment variables, [a crossplatform guide](https://wisetut.com/how-to-set-environment-variables-for-windows-linux-and-macosx/)
