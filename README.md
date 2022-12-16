@@ -8,15 +8,9 @@ It retrieves a random song based on the artist you enter and returns the first 6
 This was made in a mad flash in service of a bit I was doing 
 on instagram. I wouldn't call this quality software. If this ends up being of any use to anyone, it will have done far more than I anticipated. 
 
-As this is programmed it takes in a json file of artists and spits tracks and artists
+As this is programmed it in an argument for a given artist, then returns a random track from the body of the returned tracks. From there it navigates to the shazam web page and parses the html looking for the lryics.Once it obtains the lyrics it trims them down to the first 60 characters. It will cut off words, so be warned. 
 
-It then returns a random track from the body of the returned tracks.
-
-From there it navigates to the shazam web page and parses the html looking for the lryics. 
-
-Once it obtains the lyrics it trims them down to the first 60 characters. It will cut off words.
-
-I didn't build in any verification that it ends up returning the artist you intend, so you must know your discographies and lyrics.
+I didn't build in any verification that it ends up returning the artist you intend.
 
 ## Usage 
 
