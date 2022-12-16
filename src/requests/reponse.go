@@ -99,6 +99,6 @@ type ShazamResponse struct {
 // GetRandomTrackUrl selects one of the tracks from the response and returns its url
 func (s *ShazamResponse) GetRandomTrackUrl() string {
 	rand.Seed(time.Now().UnixNano())
-	key := rand.Intn(len(s.Tracks.Hits)) + 1 // I copied this from the last time I needed to create a random key and can't remember what the +1 fixes and didn't comment it in my old code. Cargo culting myself and you here.
+	key := rand.Intn(len(s.Tracks.Hits))
 	return s.Tracks.Hits[key].Track.URL
 }

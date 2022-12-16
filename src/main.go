@@ -36,7 +36,7 @@ func main() {
 					var query []string
 					// get inputted string from command line
 					for i := 0; i <= len(c.Args()); i++ {
-						query = append(query, c.Args().Get(i)+" ")
+						query = append(query, c.Args().Get(i))
 					}
 					artist := strings.Join(query, " ")
 					if artist == "" {
