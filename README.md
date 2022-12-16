@@ -1,4 +1,4 @@
-# instagram-aim-status
+# instagram-away-mesage
 A command line tool for generating instagram note messages from songs
 
 ## What does it do? 
