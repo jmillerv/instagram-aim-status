@@ -25,13 +25,11 @@ COMMANDS:
 
 ```
 
-For example, the `./app get-artist 3oh!3` will yield `bash: !3: event not found`
-
-Escaped you'll get a response with lyrics
-
 ### Special Characters
 
-If you get an error from a band with a special character, try escaping it with a `\`
+Special characters can cause issues. For example, the `./app get-artist 3oh!3` will yield `bash: !3: event not found` If you get an error from a band with a special character, try escaping it with a `\`
+
+ex: `./app get-artist 3oh\!3`
 
 ## Required Dependencies 
 
