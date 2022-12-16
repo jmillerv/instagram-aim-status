@@ -40,15 +40,15 @@ If you've never worked with Go before, you'll need to install that, follow their
 https://go.dev/doc/install
 
 ### RapidAPI 
-This is using Shazam's API through Rapid API, so you'll need a rapid API account. Apologies.
+This is using Shazam's API through [Rapid API](https://rapidapi.com/hub), so you'll need a rapid API account. Apologies.
 
 ## Required Environment Variables
 If you've never done set environment variables, [a crossplatform guide](https://wisetut.com/how-to-set-environment-variables-for-windows-linux-and-macosx/)
 
-RAPID_API_APP=instagram-aim-message # name of your app 
-RAPID_API_REQUEST_URL=rapidapi.com 
-RAPID_API_KEY={token} # X-RapidAPI-Key header parameter
-RAPID_API_HOST=shazam.core.p.rapidapi.com # X-RapidAPI-Host parameter
+RAPID_API_APP=instagram-aim-message # name of your app   
+RAPID_API_REQUEST_URL=rapidapi.com   
+RAPID_API_KEY={token} # X-RapidAPI-Key header parameter  
+RAPID_API_HOST=shazam.core.p.rapidapi.com # X-RapidAPI-Host parameter  
 
 ## Building
 Once you've gotten every thing setup navigate to the `instagram-aim-status/src` and run `go build` 
