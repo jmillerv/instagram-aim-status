@@ -3,6 +3,9 @@
 # instagram-away-mesage
 A command line tool for generating instagram note messages from songs
 
+## Archived 
+Code is maintained on [Codeberg](https://codeberg.org/jmillerv/instagram-away-message)
+
 ## What does it do? 
 It retrieves a random song based on the artist you enter and returns the first 60 characters. 
 
